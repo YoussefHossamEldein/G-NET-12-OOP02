@@ -48,6 +48,12 @@
             //read only property that return a calculated value 
             /* public int Balance => balance > 0 ; */
             #endregion
+
+
+            #region Question04
+            /* static keyword has made TotalOrders to be a class member not an instance(object) member */
+            //No — static methods belong to the class, not an object. There's no instance to read the field from. You'd get a compile error.
+            #endregion
         }
     }
 }
