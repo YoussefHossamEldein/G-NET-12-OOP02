@@ -8,8 +8,8 @@
             /* a) First problem : public fields so anyone from outside can access and change it directly */
             /* second problem: no validation inside the methods on these fields */
             // b) 
-             /* making private fields and use setters and getters with validation or use properties */
-             //example 
+            /* making private fields and use setters and getters with validation or use properties */
+            //example 
             // internal class BankAccount
             //    {
 
@@ -38,7 +38,15 @@
 
 
 
-                //}
+            //}
+            #endregion
+
+            #region Question02
+            /* Fields or attributes are variables to store data inside classes */
+            /* properties are a controlled way to get or set fields to encounter and violate 
+             * encapsulation */
+            //read only property that return a calculated value 
+            /* public int Balance => balance > 0 ; */
             #endregion
         }
     }
